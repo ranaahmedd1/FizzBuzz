@@ -78,3 +78,17 @@ Fizz
 14
 FizzBuzz
 
+Explanation
+
+The numbers 3, 6, 9, and 72 are multiples
+of 3(but not 5), so print Fizz on those
+lines.
+
+The numbers 5and 70 are multiples of 5
+(but not 3), so print Buzz on those lines.
+The number 75is a multiple of both 3and
+5, so print FizzBuzz on that line.
+
+None of the other values is a multiple of
+either 3 or 5, so print the value of jon
+those lines.

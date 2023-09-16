@@ -13,26 +13,16 @@ string rtrim(const string &);
  */
 
 void fizzBuzz(int n) {
-  for(int i=1;i<=n;i++){
-   // bool multiple5=0,multiple3=0;
-    if (i%3==0 && i%5==0) 
-         printf("FizzBuzz\n");
-    else if (i%5!=0 && i%3==0) 
-     {
-         printf("Fizz"); 
-         printf("\n");
-      }
-    else if (i%5==0 && i%3!=0) 
-     {
-         printf("Buzz"); 
-         printf("\n");
-      }
-    else 
-         printf("%d\n",i);    
-    
-    
-    
+    for(int i=1;i<=n;i++){
+       bool temp=0;
+        if(i%3==0) {printf("Fizz");temp=1;}
+        if(i%5==0) {printf("Buzz");temp=1;}
+        else if(temp==0)   printf("%d", i);
+        printf("\n");
+        
     }
+
+}
 
 }
 int main()
